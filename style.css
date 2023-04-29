@@ -1,0 +1,13 @@
+/* custom Properties */
+:root{
+    --clr-accent-400: E51837;
+    --clr-accent-300: BEBEBE;
+
+    --clr-primary-800: 212121;
+    --clr-primary-600: rgba(0, 0, 0, 0.75);
+    --clr-primary-600: rgba(0, 0, 0, 0.80);
+    
+    --clr-neutral-100: FAFAFA;
+    --clr-neutral-100: 3C3C3C;
+
+}
