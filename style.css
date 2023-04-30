@@ -1,16 +1,22 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: gotham;
+    src: url(fonts/GothamBook.ttf);
+}
 /* custom Properties */
 :root{
-    --clr-accent-400: E51837;
-    --clr-accent-300: BEBEBE;
+    --clr-accent-400: #E51837;
+    --clr-accent-300: #BEBEBE;
 
-    --clr-primary-800: 212121;
+    --clr-primary-800: #212121;
     --clr-primary-600: rgba(0, 0, 0, 0.75);
     --clr-primary-700: rgba(0, 0, 0, 0.80);
     --clr-primary-400: rgba(0, 0, 0, 0.20);
     --clr-primary-500: rgba(0, 0, 0, 0.5);
     
-    --clr-neutral-100: FAFAFA;
-    --clr-neutral-100: 3C3C3C;
+    --clr-neutral-100: #FAFAFA;
+    --clr-neutral-100: #3C3C3C;
 
     --clr-header: var(--clr-primary-400);
     --clr-navbar-indicator:var(--clr-accent-400);
@@ -27,4 +33,9 @@
     --clr-button-border:var(--clr-accent-400);
     --clr-button-text:var(--clr-neutral-100);
 
+    --ff-primary:'Montserrat', sans-serif;
+    --ff-accent:'gotham',sans-serif;
+
+    --ff-body: var(--ff-primary);
+    --ff-heading:var(--ff-primary);
 }
