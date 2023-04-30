@@ -37,5 +37,22 @@
     --ff-accent:'gotham',sans-serif;
 
     --ff-body: var(--ff-primary);
-    --ff-heading:var(--ff-primary);
+    --ff-heading: var(--ff-primary);
+    --ff-accent-heading: var(--ff-accent);
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    --fs-200: 0.5rem
+    --fs-300: 0.75rem
+    --fs-400: 1rem
+    --fs-500: 1.25rem
+    --fs-600: 1.875rem
+    --fs-700: 2rem
+    --fs-800: 2.5rem
+    --fs-900: 3rem
+    --fs-1000: 3.4375rem
+    --fs-1100: 4rem
 }
