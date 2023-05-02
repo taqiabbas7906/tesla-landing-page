@@ -1,10 +1,10 @@
-/* font import */
+/* Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @font-face {
     font-family: gotham;
     src: url(fonts/GothamBook.ttf);
 }
-/* custom Properties */
+/* Custom Properties */
 :root{
     --clr-accent-400: #E51837;
     --clr-accent-300: #BEBEBE;
@@ -18,21 +18,6 @@
     --clr-neutral-100: #FAFAFA;
     --clr-neutral-200: #3C3C3C;
 
-    --clr-header: var(--clr-primary-400);
-    --clr-navbar-indicator:var(--clr-accent-400);
-    --clr-navbar: var(--clr-accent-300);
-    --clr-bg-primary: var(--clr-primary-800);
-    --clr-bg-secondary: var(--clr-neutral-100);
-    --clr-paragraph:var(--clr-neutral-100);
-    --clr-heading: var(--clr-neutral-100);
-    --clr-feature: var(--clr-neutral-100);
-    --clr-image-shadow:var(--clr-primary-500);
-    --clr-line: var(--clr-neutral-100);
-    --clr-photoFilter-light: var(--clr-primary-600);
-    --clr-photoFilter-dark: var(--clr-primary-700);
-    --clr-button-border:var(--clr-accent-400);
-    --clr-button-text:var(--clr-neutral-100);
-
     --ff-primary:'Montserrat', sans-serif;
     --ff-accent:'gotham',sans-serif;
 
@@ -44,7 +29,13 @@
     --fw-medium: 500;
     --fw-semibold: 600;
     --fw-bold: 700;
-
+    
+    --fw-nav:var(--fw-semibold);
+    --fw-primary-heading:var(--fw-bold);
+    --fw-secondary-heading:var(--fw-semibold);
+    --fw-paragraph:var(--fw-regular);
+    --fw-text:var(--fw-medium);
+    
     --fs-200: 0.5rem;
     --fs-300: 0.75rem;
     --fs-400: 1rem;
@@ -75,4 +66,47 @@
         --fs-primary-button:var(--fs-300);
         --fs-secondary-button:var(--fs-200);
     }
+}
+
+/* Css Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+html {
+  color-scheme: dark light;
+}
+body {
+  min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+/* Utility Classes */
+.text-accent-400{
+    color: var(--clr-accent-400);
+}
+.text-accent-300{
+    color: var(--clr-accent-300);
+}
+.text-primary-800{
+    color: var(--clr-primary-800);
+}
+.text-neutral-100{
+    color: var(--clr-neutral-100);
+}
+.text-neutral-200{
+    color: var(--clr-neutral-200);
 }
