@@ -11,7 +11,7 @@
     <header class="primary-header">
       <div class="container">
         <nav class="nav-primary nav">
-          <ul role="list" class="nav-list">
+          <ul aria-label="navigation" role="list" class="nav-list">
             <li><a href="#" class="fs-nav fw-semibold">Home</a></li>
             <li><a href="#" class="fs-nav fw-semibold">Cars</a></li>
             <li><a href="#" class="fs-nav fw-semibold">Features</a></li>
@@ -28,10 +28,11 @@
       </div>
     </header>
     <!-- Header End -->
+
     <!-- Main Start -->
     <main>
       <!-- Hero Section Start -->
-      <section class="hero-section">
+      <section class="hero-section text-neutral-100">
         <img src="images/Background.jpg" alt="Tesla Model S" />
         <div class="container">
           <h1 class="fs-primary-heading fw-bold">Drive the future With</h1>
@@ -59,37 +60,113 @@
         </div>
       </section>
       <!-- Hero Section End -->
+
       <!-- Models Section Start -->
-      <section class="model-section">
+      <section class="model-section bg-primary-800 text-neutral-100">
         <h2 class="fs-secondary-heading fw-semibold">MODELS</h2>
         <div class="model-info">
           <div class="four-columns">
             <h3>S</h3>
             <img src="images/Model S.svg" alt="Model S" />
-            <p>87,490/Dollars</p>
+            <p class="fs-secondary-body fw-medium">87,490/Dollars</p>
             <button class="button">See More</button>
           </div>
           <div class="four-columns">
             <h3>3</h3>
             <img src="images/Model 3.svg" alt="Model 3" />
-            <p>42,990/Dollars</p>
+            <p class="fs-secondary-body fw-medium">42,990/Dollars</p>
             <button class="button">See More</button>
           </div>
           <div class="four-columns">
             <h3>X</h3>
             <img src="images/Model X.svg" alt="Model X" />
-            <p>99,990/Dollars</p>
+            <p class="fs-secondary-body fw-regular">99,990/Dollars</p>
             <button class="button">See More</button>
           </div>
           <div class="four-columns">
             <h3>Y</h3>
             <img src="images/Model Y.svg" alt="Model Y" />
-            <p>53,990/Dollars</p>
+            <p class="fs-secondary-body fw-regular">53,990/Dollars</p>
             <button class="button">See More</button>
           </div>
         </div>
       </section>
       <!-- Models Section End -->
+
+      <!-- Features Section Start -->
+      <section class="features">
+        <article class="bg-primary-800 text-neutral-100">
+          <div class="container">
+            <div class="even-column">
+              <img src="images/FSD img.svg" alt="Self Driving Tesla" />
+              <div class="info">
+                <h3 class="fs-900 fw-bold text-neutral-100">
+                  Full Self Driving
+                </h3>
+                <p class="fs-primary-body fw-regular text-neutral-100">
+                  Tesla's self-driving technology, known as Autopilot, allows
+                  the car to navigate on its own, changing lanes, braking, and
+                  accelerating as necessary. While it is not fully autonomous,
+                  it represents a significant step forward in the development of
+                  self-driving cars, and Tesla continues to improve its
+                  capabilities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="bg-neutral-100 text-primary-800">
+          <div class="container">
+            <div class="even-column fw-regular">
+              <img src="images/Fully Electric img.svg" alt="Tesla Battery" />
+              <div class="info">
+                <h3 class="fs-900 fw-bold">Fully Electric</h3>
+                <p class="fs-primary-body fw-regular">
+                  Tesla's electric vehicles have several advantages over
+                  traditional gas-powered cars. They produce zero emissions,
+                  have lower operating costs, require less maintenance, and
+                  offer instant torque and acceleration. Additionally, Tesla's
+                  advanced technology and sleek designs make them a popular
+                  choice for eco-conscious drivers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="bg-primary-800 text-neutral-100">
+          <div class="container">
+            <div class="even-column fw-regular">
+              <img
+                src="images/Fast Charging img.svg"
+                alt="Tesla with charger dock"
+              />
+              <div class="info">
+                <h3 class="fs-900 fw-bold">Super Charge</h3>
+                <p class="fs-primary-body fw-regular">
+                  Tesla Superchargers are high-speed charging stations designed
+                  to recharge Tesla electric vehicles quickly and conveniently.
+                  With a network of over 25,000 Superchargers globally, Tesla
+                  owners can travel long distances without worrying about
+                  running out of battery power. The charging process typically
+                  takes around 30-45 minutes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- Features Section End -->
+
+      <section class="cta">
+        <div class="container bg-primary-800">
+          <div class="even-column">
+            <p class="fs-900 fw-bold text-neutral-100">
+              What are you waiting for?
+            </p>
+            <button class="button">Buy Now</button>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Main End -->
     <script type="module" src="/main.js"></script>
