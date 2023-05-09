@@ -223,6 +223,16 @@ video {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
+
+.img-crop-portrait{
+  --height:31.25rem;
+  --width:24.375;
+
+  width:var(--width);
+  height: var(--height);
+  object-fit: none;
+  object-position: 45%;
+}
 /* General Styling */
 body{
     font-family: var(--ff-body);
